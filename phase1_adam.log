@@ -1,0 +1,20 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 10743.23it/s]
+ReparamLM (Adam) [table 2048->64 x12; 768->512->2048]
+step   500 KL=2.818 agree=0.307 acc=0.037 best=0.307 t=57s
+step  1000 KL=2.830 agree=0.309 acc=0.026 best=0.309 t=120s
+step  1500 KL=2.896 agree=0.304 acc=0.028 best=0.309 t=182s
+step  2000 KL=2.783 agree=0.352 acc=0.039 best=0.352 t=245s
+step  2500 KL=2.787 agree=0.328 acc=0.034 best=0.352 t=307s
+step  3000 KL=2.803 agree=0.308 acc=0.033 best=0.352 t=370s
+step  3500 KL=2.835 agree=0.347 acc=0.033 best=0.352 t=432s
+step  4000 KL=2.890 agree=0.315 acc=0.043 best=0.352 t=495s
+step  4500 KL=2.757 agree=0.344 acc=0.024 best=0.352 t=556s
+step  5000 KL=2.754 agree=0.321 acc=0.036 best=0.352 t=618s
+step  5500 KL=2.817 agree=0.326 acc=0.038 best=0.352 t=680s
+step  6000 KL=2.768 agree=0.330 acc=0.032 best=0.352 t=742s
+step  6500 KL=2.822 agree=0.316 acc=0.044 best=0.352 t=803s
+step  7000 KL=2.799 agree=0.316 acc=0.035 best=0.352 t=864s
+step  7500 KL=2.841 agree=0.309 acc=0.033 best=0.352 t=926s
+step  8000 KL=2.795 agree=0.298 acc=0.033 best=0.352 t=988s
+saved model_phase1_adam.npz (best agree=0.352)

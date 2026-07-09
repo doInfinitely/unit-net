@@ -1,0 +1,28 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9820.11it/s]
+ReparamLM (Adam) [table 2048->64 x12; 768->512->2048]
+step   500 KL=3.375 agree=0.077 acc=0.065 best=0.077 t=61s
+step  1000 KL=3.393 agree=0.087 acc=0.072 best=0.087 t=117s
+step  1500 KL=3.423 agree=0.071 acc=0.055 best=0.087 t=167s
+step  2000 KL=3.346 agree=0.074 acc=0.061 best=0.087 t=217s
+step  2500 KL=3.348 agree=0.083 acc=0.058 best=0.087 t=268s
+step  3000 KL=3.370 agree=0.081 acc=0.063 best=0.087 t=319s
+step  3500 KL=3.418 agree=0.078 acc=0.058 best=0.087 t=380s
+step  4000 KL=3.458 agree=0.073 acc=0.048 best=0.087 t=440s
+step  4500 KL=3.327 agree=0.088 acc=0.075 best=0.088 t=499s
+step  5000 KL=3.288 agree=0.081 acc=0.063 best=0.088 t=560s
+step  5500 KL=3.375 agree=0.084 acc=0.059 best=0.088 t=621s
+step  6000 KL=3.303 agree=0.081 acc=0.067 best=0.088 t=681s
+step  6500 KL=3.349 agree=0.082 acc=0.067 best=0.088 t=741s
+step  7000 KL=3.338 agree=0.077 acc=0.057 best=0.088 t=801s
+step  7500 KL=3.368 agree=0.066 acc=0.062 best=0.088 t=861s
+step  8000 KL=3.298 agree=0.097 acc=0.062 best=0.097 t=921s
+step  8500 KL=3.372 agree=0.080 acc=0.055 best=0.097 t=982s
+step  9000 KL=3.411 agree=0.079 acc=0.062 best=0.097 t=1042s
+step  9500 KL=3.387 agree=0.081 acc=0.062 best=0.097 t=1102s
+step 10000 KL=3.393 agree=0.089 acc=0.062 best=0.097 t=1163s
+step 10500 KL=3.329 agree=0.081 acc=0.055 best=0.097 t=1223s
+step 11000 KL=3.340 agree=0.074 acc=0.051 best=0.097 t=1283s
+step 11500 KL=3.372 agree=0.072 acc=0.057 best=0.097 t=1343s
+step 12000 KL=3.393 agree=0.084 acc=0.061 best=0.097 t=1404s
+saved model_phase1_adam.npz (best agree=0.097)

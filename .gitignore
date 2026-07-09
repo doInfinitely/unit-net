@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+# model checkpoints
+*.npz
+
+# datasets / token caches
+*.pt
+tinyshakespeare.txt
+tinystories_valid.txt

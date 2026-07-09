@@ -1,0 +1,39 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 10415.99it/s]
+teacher Qwen/Qwen2.5-0.5B loaded (494M params)
+corpus: 5,385,052 teacher tokens
+reduced vocab 2048 covers 96.4% of corpus tokens
+student TokenUnitLM [table 2048->64 shared x12; trunk 768 -> 512 -> 2048] params=3.2M
+step   500 KL=13.911 agree@1(teacher)=0.005 next-tok acc=0.010 t=48s constraints=OK
+step  1000 KL=10.801 agree@1(teacher)=0.021 next-tok acc=0.018 t=102s constraints=OK
+step  1500 KL=10.103 agree@1(teacher)=0.000 next-tok acc=0.000 t=154s constraints=OK
+step  2000 KL=16.950 agree@1(teacher)=0.053 next-tok acc=0.045 t=207s constraints=OK
+step  2500 KL=12.714 agree@1(teacher)=0.302 next-tok acc=0.037 t=260s constraints=OK
+step  3000 KL=11.412 agree@1(teacher)=0.005 next-tok acc=0.010 t=313s constraints=OK
+step  3500 KL=10.641 agree@1(teacher)=0.005 next-tok acc=0.009 t=366s constraints=OK
+step  4000 KL=9.615 agree@1(teacher)=0.002 next-tok acc=0.001 t=419s constraints=OK
+step  4500 KL=10.211 agree@1(teacher)=0.009 next-tok acc=0.007 t=472s constraints=OK
+step  5000 KL=8.888 agree@1(teacher)=0.014 next-tok acc=0.007 t=524s constraints=OK
+step  5500 KL=14.747 agree@1(teacher)=0.305 next-tok acc=0.042 t=577s constraints=OK
+step  6000 KL=9.752 agree@1(teacher)=0.003 next-tok acc=0.000 t=630s constraints=OK
+step  6500 KL=8.308 agree@1(teacher)=0.311 next-tok acc=0.048 t=683s constraints=OK
+step  7000 KL=8.366 agree@1(teacher)=0.010 next-tok acc=0.006 t=736s constraints=OK
+step  7500 KL=7.810 agree@1(teacher)=0.317 next-tok acc=0.041 t=789s constraints=OK
+step  8000 KL=9.774 agree@1(teacher)=0.039 next-tok acc=0.026 t=842s constraints=OK
+step  8500 KL=10.068 agree@1(teacher)=0.009 next-tok acc=0.005 t=894s constraints=OK
+step  9000 KL=8.824 agree@1(teacher)=0.008 next-tok acc=0.006 t=947s constraints=OK
+step  9500 KL=12.543 agree@1(teacher)=0.314 next-tok acc=0.035 t=1000s constraints=OK
+step 10000 KL=10.264 agree@1(teacher)=0.319 next-tok acc=0.043 t=1053s constraints=OK
+step 10500 KL=7.065 agree@1(teacher)=0.031 next-tok acc=0.023 t=1106s constraints=OK
+step 11000 KL=6.841 agree@1(teacher)=0.035 next-tok acc=0.032 t=1158s constraints=OK
+step 11500 KL=4.908 agree@1(teacher)=0.034 next-tok acc=0.027 t=1211s constraints=OK
+step 12000 KL=7.283 agree@1(teacher)=0.048 next-tok acc=0.041 t=1264s constraints=OK
+step 12500 KL=6.948 agree@1(teacher)=0.025 next-tok acc=0.021 t=1317s constraints=OK
+step 13000 KL=6.145 agree@1(teacher)=0.345 next-tok acc=0.041 t=1370s constraints=OK
+step 13500 KL=3.174 agree@1(teacher)=0.314 next-tok acc=0.039 t=1423s constraints=OK
+step 14000 KL=2.850 agree@1(teacher)=0.330 next-tok acc=0.040 t=1475s constraints=OK
+step 14500 KL=5.545 agree@1(teacher)=0.058 next-tok acc=0.051 t=1528s constraints=OK
+step 15000 KL=5.422 agree@1(teacher)=0.060 next-tok acc=0.046 t=1581s constraints=OK
+saved model_phase1.npz
+student continuation: ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'

@@ -1,0 +1,33 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 11872.14it/s]
+ReparamLM (Adam) [table 2048->96 x12; 1152->1024->2048]
+ownership targets (reduced ids): [47, 766, 29, 140, 99, 42]
+step   500 KL=3.466 agree=0.062 acc=0.047 best=0.062 dead=0 concept_sel=+0.1360 t=57s
+step  1000 KL=3.134 agree=0.113 acc=0.111 best=0.113 dead=0 concept_sel=+0.2386 t=113s
+step  1500 KL=2.882 agree=0.142 acc=0.117 best=0.142 dead=1 concept_sel=+0.2973 t=169s
+step  2000 KL=2.532 agree=0.209 acc=0.164 best=0.209 dead=0 concept_sel=+0.3581 t=224s
+step  2500 KL=2.483 agree=0.214 acc=0.182 best=0.214 dead=0 concept_sel=+0.4493 t=280s
+step  3000 KL=2.301 agree=0.247 acc=0.197 best=0.247 dead=1 concept_sel=+0.5096 t=335s
+step  3500 KL=2.244 agree=0.257 acc=0.213 best=0.257 dead=1 concept_sel=+0.5603 t=391s
+step  4000 KL=2.255 agree=0.252 acc=0.187 best=0.257 dead=0 concept_sel=+0.6052 t=447s
+step  4500 KL=2.064 agree=0.242 acc=0.213 best=0.257 dead=0 concept_sel=+0.6412 t=502s
+step  5000 KL=1.940 agree=0.302 acc=0.245 best=0.302 dead=2 concept_sel=+0.6724 t=558s
+step  5500 KL=1.965 agree=0.304 acc=0.241 best=0.304 dead=0 concept_sel=+0.7009 t=614s
+step  6000 KL=1.842 agree=0.328 acc=0.265 best=0.328 dead=2 concept_sel=+0.7280 t=669s
+step  6500 KL=1.925 agree=0.310 acc=0.246 best=0.328 dead=1 concept_sel=+0.7527 t=725s
+step  7000 KL=1.837 agree=0.321 acc=0.251 best=0.328 dead=2 concept_sel=+0.7756 t=781s
+step  7500 KL=1.856 agree=0.299 acc=0.260 best=0.328 dead=2 concept_sel=+0.7981 t=837s
+step  8000 KL=1.889 agree=0.308 acc=0.261 best=0.328 dead=0 concept_sel=+0.8178 t=893s
+step  8500 KL=1.875 agree=0.293 acc=0.240 best=0.328 dead=2 concept_sel=+0.8342 t=948s
+step  9000 KL=1.933 agree=0.296 acc=0.248 best=0.328 dead=2 concept_sel=+0.8478 t=1004s
+step  9500 KL=1.934 agree=0.304 acc=0.244 best=0.328 dead=0 concept_sel=+0.8603 t=1060s
+step 10000 KL=1.936 agree=0.309 acc=0.229 best=0.328 dead=1 concept_sel=+0.8683 t=1111s
+step 10500 KL=1.797 agree=0.329 acc=0.267 best=0.329 dead=4 concept_sel=+0.8756 t=1158s
+step 11000 KL=1.847 agree=0.312 acc=0.253 best=0.329 dead=1 concept_sel=+0.8811 t=1206s
+step 11500 KL=1.889 agree=0.287 acc=0.235 best=0.329 dead=1 concept_sel=+0.8845 t=1253s
+step 12000 KL=1.865 agree=0.298 acc=0.256 best=0.329 dead=0 concept_sel=+0.8872 t=1301s
+step 12500 KL=1.793 agree=0.302 acc=0.268 best=0.329 dead=3 concept_sel=+0.8888 t=1357s
+step 13000 KL=1.807 agree=0.308 acc=0.240 best=0.329 dead=1 concept_sel=+0.8895 t=1412s
+step 13500 KL=1.825 agree=0.332 acc=0.264 best=0.332 dead=2 concept_sel=+0.8898 t=1468s
+step 14000 KL=1.812 agree=0.316 acc=0.254 best=0.332 dead=2 concept_sel=+0.8898 t=1523s
+saved model_phase1_adam.npz (best agree=0.332)

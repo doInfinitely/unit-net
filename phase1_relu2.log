@@ -1,0 +1,32 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9357.39it/s]
+ReparamLM (Adam) [table 2048->96 x12; 1152->1024->2048]
+step   500 KL=3.466 agree=0.062 acc=0.047 best=0.062 dead=0 mean_sel=-0.0084 t=57s
+step  1000 KL=3.134 agree=0.113 acc=0.111 best=0.113 dead=0 mean_sel=-0.0089 t=112s
+step  1500 KL=2.884 agree=0.142 acc=0.118 best=0.142 dead=1 mean_sel=-0.0079 t=167s
+step  2000 KL=2.532 agree=0.207 acc=0.164 best=0.207 dead=0 mean_sel=-0.0073 t=222s
+step  2500 KL=2.483 agree=0.215 acc=0.182 best=0.215 dead=0 mean_sel=-0.0074 t=276s
+step  3000 KL=2.299 agree=0.247 acc=0.198 best=0.247 dead=1 mean_sel=-0.0074 t=331s
+step  3500 KL=2.243 agree=0.258 acc=0.211 best=0.258 dead=1 mean_sel=-0.0072 t=386s
+step  4000 KL=2.254 agree=0.255 acc=0.190 best=0.258 dead=0 mean_sel=-0.0073 t=440s
+step  4500 KL=2.061 agree=0.244 acc=0.217 best=0.258 dead=1 mean_sel=-0.0071 t=494s
+step  5000 KL=1.938 agree=0.299 acc=0.248 best=0.299 dead=2 mean_sel=-0.0070 t=549s
+step  5500 KL=1.963 agree=0.302 acc=0.240 best=0.302 dead=0 mean_sel=-0.0069 t=604s
+step  6000 KL=1.842 agree=0.326 acc=0.265 best=0.326 dead=2 mean_sel=-0.0067 t=659s
+step  6500 KL=1.924 agree=0.309 acc=0.245 best=0.326 dead=1 mean_sel=-0.0065 t=713s
+step  7000 KL=1.837 agree=0.319 acc=0.251 best=0.326 dead=2 mean_sel=-0.0064 t=769s
+step  7500 KL=1.856 agree=0.298 acc=0.260 best=0.326 dead=2 mean_sel=-0.0063 t=819s
+step  8000 KL=1.888 agree=0.309 acc=0.258 best=0.326 dead=0 mean_sel=-0.0063 t=866s
+step  8500 KL=1.874 agree=0.291 acc=0.239 best=0.326 dead=2 mean_sel=-0.0062 t=912s
+step  9000 KL=1.934 agree=0.298 acc=0.247 best=0.326 dead=2 mean_sel=-0.0061 t=959s
+step  9500 KL=1.935 agree=0.300 acc=0.239 best=0.326 dead=0 mean_sel=-0.0060 t=1005s
+step 10000 KL=1.937 agree=0.305 acc=0.228 best=0.326 dead=1 mean_sel=-0.0060 t=1059s
+step 10500 KL=1.799 agree=0.324 acc=0.268 best=0.326 dead=3 mean_sel=-0.0060 t=1114s
+step 11000 KL=1.846 agree=0.308 acc=0.252 best=0.326 dead=1 mean_sel=-0.0060 t=1169s
+step 11500 KL=1.889 agree=0.285 acc=0.234 best=0.326 dead=1 mean_sel=-0.0060 t=1223s
+step 12000 KL=1.865 agree=0.296 acc=0.255 best=0.326 dead=0 mean_sel=-0.0059 t=1277s
+step 12500 KL=1.795 agree=0.299 acc=0.268 best=0.326 dead=3 mean_sel=-0.0059 t=1332s
+step 13000 KL=1.809 agree=0.307 acc=0.242 best=0.326 dead=0 mean_sel=-0.0059 t=1386s
+step 13500 KL=1.825 agree=0.329 acc=0.260 best=0.329 dead=1 mean_sel=-0.0059 t=1441s
+step 14000 KL=1.811 agree=0.316 acc=0.255 best=0.329 dead=1 mean_sel=-0.0059 t=1496s
+saved model_phase1_adam.npz (best agree=0.329)

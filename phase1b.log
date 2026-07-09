@@ -1,0 +1,19 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 10977.77it/s]
+teacher Qwen/Qwen2.5-0.5B loaded (494M params)
+corpus: 5,385,052 teacher tokens
+reduced vocab 2048 covers 96.4% of corpus tokens
+student TokenUnitLM [table 2048->64 shared x12; trunk 768 -> 512 -> 2048] params=3.2M
+step   500 KL=8.368 agree@1(teacher)=0.005 next-tok acc=0.010 best=0.005 t=54s constraints=OK
+step  1000 KL=6.665 agree@1(teacher)=0.040 next-tok acc=0.036 best=0.040 t=106s constraints=OK
+step  1500 KL=4.933 agree@1(teacher)=0.317 next-tok acc=0.039 best=0.317 t=160s constraints=OK
+step  2000 KL=14.794 agree@1(teacher)=0.305 next-tok acc=0.034 best=0.317 t=213s constraints=OK
+step  2500 KL=7.431 agree@1(teacher)=0.013 next-tok acc=0.007 best=0.317 t=266s constraints=OK
+step  3000 KL=6.304 agree@1(teacher)=0.047 next-tok acc=0.044 best=0.317 t=318s constraints=OK
+step  3500 KL=6.760 agree@1(teacher)=0.042 next-tok acc=0.041 best=0.317 t=371s constraints=OK
+step  4000 KL=5.710 agree@1(teacher)=0.336 next-tok acc=0.041 best=0.336 t=424s constraints=OK
+step  4500 KL=4.699 agree@1(teacher)=0.047 next-tok acc=0.051 best=0.336 t=477s constraints=OK
+step  5000 KL=2.912 agree@1(teacher)=0.318 next-tok acc=0.031 best=0.336 t=529s constraints=OK
+saved model_phase1.npz
+student continuation: '<|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>'
