@@ -8,3 +8,4 @@ __pycache__/
 *.pt
 tinyshakespeare.txt
 tinystories_valid.txt
+imagenette2-160/

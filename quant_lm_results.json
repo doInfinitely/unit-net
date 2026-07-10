@@ -1,0 +1,46 @@
+{
+ "float32": {
+  "agree": 0.2998046875,
+  "posslot": 1.0
+ },
+ "12": {
+  "agree": 0.3017578125,
+  "posslot": 1.0,
+  "nonzeroP": 1281172
+ },
+ "10": {
+  "agree": 0.2998046875,
+  "posslot": 1.0,
+  "nonzeroP": 709890
+ },
+ "8": {
+  "agree": 0.2138671875,
+  "posslot": 1.0,
+  "nonzeroP": 327084
+ },
+ "6": {
+  "agree": 0.1552734375,
+  "posslot": 1.0,
+  "nonzeroP": 124383
+ },
+ "5": {
+  "agree": 0.1162109375,
+  "posslot": 1.0,
+  "nonzeroP": 71829
+ },
+ "4": {
+  "agree": 0.095703125,
+  "posslot": 1.0,
+  "nonzeroP": 40064
+ },
+ "3": {
+  "agree": 0.02734375,
+  "posslot": 1.0,
+  "nonzeroP": 21691
+ },
+ "2": {
+  "agree": 0.0009765625,
+  "posslot": 1.0,
+  "nonzeroP": 11561
+ }
+}
